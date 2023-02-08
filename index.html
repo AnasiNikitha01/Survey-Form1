@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <div class="first">
+    <h1>Survey Form</h1>
+    <p class="para" id="para1">Mention your skills here</p>
+    <p class="para" id="para2">We are organizing a metting on in demand skills for current generation. We need some information about the current technologies going on and how familier you all are with these technologies.</p>
+    <p class="para" id="para3">Please do fill out the form and complete the Survey</p>
+<div class="form">
+    <form action="survey">
+        <div class="name">
+        <input type="text" class="name" placeholder="First name">
+        <input type="text" class="name"  placeholder="Middle name">
+        <input type="text" class="name" placeholder="Last name">
+        </div>
+        <div class="contact">
+        <input type="email" name="mail" id="mail" placeholder="Your Mail-ID">
+
+        <input type="tel" name="phone" id="phone" placeholder="Mobile number">
+
+        <input type="text" name="address" id="address" placeholder="Enter Your address">
+        </div>
+        <div class="skills">
+       <p class="para" id="para4">Skills:</p>
+
+       <p class="para" id="para5"><small>(Check-out all the Skills you know)</small></p>
+       <ul>
+       <li> <input type="checkbox" name="Python" id="py"> Python</li>
+         <li><input type="checkbox" name="java" id="java"> Java</li>
+         <li><input type="checkbox" name="javaScript" id="javaScript">JavaScript</li>
+         <li><input type="checkbox" name="Ruby" id="Ruby"> Ruby</li>
+         <li><input type="checkbox" name="SQL" id="SQL"> SQL</li>
+         <li><input type="checkbox" name="mySQL" id="mySQL"> mySQL</li>
+      
+         <li><input type="checkbox" name="c#" id="c#"> C #</li>
+         <li><input type="checkbox" name="Kotlin" id="kotlin"> Kotlin</li>
+         <li><input type="checkbox" name="PHP" id="PHP"> PHP</li>
+         <li><input type="checkbox" name="C++" id="C++"> C++</li>
+         <li><input type="checkbox" name=".NET" id=".NET"> .NET</li>
+         <li><input type="checkbox" name="Others" id="Others"> Others</li>
+       </ul>
+       
+         <input type="text" name="other" class="other" placeholder="if Other, Please mention here">
+         
+        </div>
+
+        <div class="positions">
+            <p class="para" id="para6">Technical Positions:</p>
+            <p class="para" id="para7"><small>(Please mention the tech positions you are familiar with)</small></p>
+            <ul>
+            <li><input type="checkbox" name="front" id="front"> Front-end Developer</li>
+            <li><input type="checkbox" name="back" id="back"> Back-end Developer</li>
+            <li><input type="checkbox" name="MERN" id="MERN"> MERN Full Stack Developer</li>
+            <li><input type="checkbox" name="dasc" id="dasc"> Data Scientist</li>
+            <li><input type="checkbox" name="Pythd" id="Pythd"> Python Developer</li>
+            <li><input type="checkbox" name="javd" id="javd"> Java Developer</li>
+            <li><input type="checkbox" name="DevOps" id="DevOps"> DevOps Developer</li>
+            <li><input type="checkbox" name=".NETd" id=".NETd"> .NET Developer</li>
+
+           <li> <input type="checkbox" name="Others" id="Others"> Others</li>
+            </ul>
+         <input type="text" name="other" class="other" placeholder="if Other, Please mention here">
+        </div>
+    
+    
+
+    </form>
+    <div class="submit">
+      <button type="submit">Submit</button>
+    </div>
+</div>
+
+    </div>
+</body>
+</html>
